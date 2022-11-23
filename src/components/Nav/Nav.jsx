@@ -25,7 +25,7 @@ const Nav = () => {
     accessToken &&
       fetch(
         `${API.MAIN}`,
-        //"http://localhost:4000/users", mockupData
+        //"http://localhost:4000/users",
         {
           headers: {
             "Content-Type": "application/json;charset=utf-8",
